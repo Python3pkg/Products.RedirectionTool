@@ -24,7 +24,7 @@ from Products.CMFPlone.utils import base_hasattr
 
 from types import StringType
 
-from interfaces import IRedirectionTool
+from .interfaces import IRedirectionTool
 from plone.app.redirector.interfaces import IRedirectionStorage
 
 

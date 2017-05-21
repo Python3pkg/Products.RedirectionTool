@@ -1,5 +1,5 @@
-import RedirectionToolTestCase
-import utils
+from . import RedirectionToolTestCase
+from . import utils
 from Products.CMFPlone.utils import _createObjectByType, base_hasattr
 from Products.CMFCore.utils import getToolByName
 from BTrees.OOBTree import OOBTree

@@ -1,5 +1,5 @@
-import RedirectionToolTestCase
-import utils
+from . import RedirectionToolTestCase
+from . import utils
 
 class TestRedirectionToolSecurity(RedirectionToolTestCase.RedirectionToolTestCase):
 

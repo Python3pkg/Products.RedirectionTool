@@ -1,5 +1,5 @@
 from Products.PloneTestCase import PloneTestCase
-import RedirectionToolTestCase
+from . import RedirectionToolTestCase
 from Products.Five.testbrowser import Browser
 from Products.PloneTestCase.setup import portal_owner, default_password
 
